@@ -7,14 +7,15 @@
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint src --ignore-pattern .ts",
-    "lint:fix": "npx eslint src --fix",
+    "lint:fix": "npx eslint . --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-     "lint-prettier":"npm run lint && npm run prettier:check",
+    "prettier:fix":"prettier --write .",
+    "lint-prettier": "npm run lint && npm run prettier:check",
     "prepare": "husky"
-   
   },
   "author": "ali shorif",
   "license": "ISC",
+  "lint-staged":{"src/**/*.ts":"npm run lint-prettier"},
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "@types/cors": "^2.8.17",
@@ -26,6 +27,7 @@
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.9.0",
     "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.5.0"
