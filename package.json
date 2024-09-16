@@ -9,7 +9,9 @@
     "lint": "npx eslint src --ignore-pattern .ts",
     "lint:fix": "npx eslint src --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+     "lint-prettier":"npm run lint && npm run prettier:check",
     "prepare": "husky"
+   
   },
   "author": "ali shorif",
   "license": "ISC",
