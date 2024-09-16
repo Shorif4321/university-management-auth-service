@@ -7,15 +7,17 @@
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint src --ignore-pattern .ts",
-    "lint:fix": "npx eslint . --fix",
+    "lint:fix": "eslint . --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "prettier:fix":"prettier --write .",
+    "prettier:fix": "prettier --write .",
     "lint-prettier": "npm run lint && npm run prettier:check",
     "prepare": "husky"
   },
   "author": "ali shorif",
   "license": "ISC",
-  "lint-staged":{"src/**/*.ts":"npm run lint-prettier"},
+  "lint-staged": {
+    "src/**/*.ts": "npm run lint-prettier"
+  },
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "@types/cors": "^2.8.17",
