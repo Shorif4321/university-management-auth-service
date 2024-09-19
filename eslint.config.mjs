@@ -7,10 +7,10 @@ import tseslint from "typescript-eslint";
 export default [
   {
     rules: {
-      "no-unused-vars": "error",
+      "no-unused-vars": "warn",
       "no-undef": "error",
       "no-console": "warn",
-      "no-unused-expression": "error",
+      // "no-unused-expression": "error",
       "no-unreachable": "error",
       "prefer-const": "error"
     },

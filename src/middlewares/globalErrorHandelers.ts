@@ -3,8 +3,15 @@ import { IGenericErrorMessage } from '../interfaces/error'
 import config from '../config'
 import handleValidationError from '../errors/handleValidationError'
 import ApiError from '../errors/ApiError'
+import { errorLogger } from '../shared/logger'
 
 const globalErrorHandelar: ErrorRequestHandler = (error, req, res, next) => {
+  //env development hole erros log kore dekhabe ar jodi production hoi tbe errorLogger er moodde error save kore rakhbe
+  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+  config.env === 'development'
+    ? console.log('🧨globalErrorHandler', error)
+    : errorLogger.error('🧨globalErrorHandler', error)
+
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessages: IGenericErrorMessage[] = []
