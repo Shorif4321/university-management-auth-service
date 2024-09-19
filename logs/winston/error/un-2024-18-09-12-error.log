@@ -1,0 +1,1 @@
+Wed Sep 18 2024 12:21:1 [UN!] error: Failed To to database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
