@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\success\\.8bb92ffef153884dc26ab03b90e5eb285753394f-audit.json",
+    "files": [
+        {
+            "date": 1726640423452,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-18-09-12-success.log",
+            "hash": "e109782b82b07c7a2b67db844e92bbcf26a2eea93701c6e302ccf07f1af80885"
+        },
+        {
+            "date": 1726643109221,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-18-09-13-success.log",
+            "hash": "e9c995cd239135d65957e9f13c699fa406385e5b001b3c79dbb0c85966c39c79"
+        },
+        {
+            "date": 1726650602263,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-18-09-15-success.log",
+            "hash": "bf022a3fe96aa1e757571e08df29f65407fb1e10c6898214a0381dd57ed11a81"
+        },
+        {
+            "date": 1726653628801,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-18-09-16-success.log",
+            "hash": "8501eb41ad305871d35538d9313caa8d42958d4396afb586bc3f634d1621bcee"
+        },
+        {
+            "date": 1726657792802,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-18-09-17-success.log",
+            "hash": "f07173f5a9093ab3528861d59a9d5d6e9ce8f98eb1a350a6f92c71321bd93fea"
+        }
+    ],
+    "hashType": "sha256"
+}

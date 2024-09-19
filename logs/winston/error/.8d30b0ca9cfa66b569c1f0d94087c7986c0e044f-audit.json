@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\error\\.8d30b0ca9cfa66b569c1f0d94087c7986c0e044f-audit.json",
+    "files": [
+        {
+            "date": 1726640423457,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-18-09-12-error.log",
+            "hash": "73c5458559b82d852dc7debf0c28d39c67a4b7099e8111c962510323923bb769"
+        },
+        {
+            "date": 1726643109226,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-18-09-13-error.log",
+            "hash": "e470bc8ebdf11f22eb4c7e2927a1c75983080b9dafd672bd958027eaf2d0cb52"
+        },
+        {
+            "date": 1726650602276,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-18-09-15-error.log",
+            "hash": "b08edcf540083fe7aac7878fca4a063de971fb562899a1dcb07dde96d6926e39"
+        },
+        {
+            "date": 1726653628805,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-18-09-16-error.log",
+            "hash": "ab9bf0f300b789f97449e80cfade80c37fbad8e6181985aacb1368c026233784"
+        },
+        {
+            "date": 1726657792807,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\12 Building the auth service part 2\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-18-09-17-error.log",
+            "hash": "374297f1b192caf478b48dc93bd8185be267fe5ef0712ef7c7adb7ddab7bd35c"
+        }
+    ],
+    "hashType": "sha256"
+}
