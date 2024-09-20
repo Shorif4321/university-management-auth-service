@@ -10,7 +10,7 @@ export default [
       "no-unused-vars": "warn",
       "no-undef": "error",
       "no-console": "warn",
-      "no-unused-expression": "error",
+      // "no-unused-expression": "error",
       "no-unreachable": "error",
       "prefer-const": "error"
     },
