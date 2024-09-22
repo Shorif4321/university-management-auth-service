@@ -1,7 +1,7 @@
 import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
-import { UserRoutes } from './app/modules/user/user.route';
 import globalErrorHandelar from './middlewares/globalErrorHandelers';
+import routers from './app/routes';
 
 const app: Application = express();
 
@@ -10,8 +10,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// application routes
-app.use('/api/v1/users', UserRoutes);
+// // application routes
+// app.use('/api/v1/users', UserRoutes);
+// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
+app.use('/api/v1/', routers);
 
 export default app;
 
