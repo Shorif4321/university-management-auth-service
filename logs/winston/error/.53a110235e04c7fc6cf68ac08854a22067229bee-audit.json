@@ -1,110 +1,125 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\.53a110235e04c7fc6cf68ac08854a22067229bee-audit.json",
-  "files": [
-    {
-      "date": 1727083044364,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-15-error.log",
-      "hash": "bf8a9c7482d77aa108911ed832ef31df08c1241f64e3fa3e4c91d0ddb84b58f9"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1727086868294,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-16-error.log",
-      "hash": "f0bce7db20b39d4386cfc38a15cf934727f63f6128998db5e375d52599f9464f"
-    },
-    {
-      "date": 1727097015508,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-19-error.log",
-      "hash": "9ffcb2564767128e8775b6b9d179d03ba61f9f2d788718b881183665a91f059f"
-    },
-    {
-      "date": 1727100946633,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-20-error.log",
-      "hash": "10ad5726d0bbdfdd1677bbf9bba837e32ac642f5e0df29d7f8750bb37e952295"
-    },
-    {
-      "date": 1727103603972,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-21-error.log",
-      "hash": "85b3e092fac501876407400d1dd3d7a60f241e0e422677e7dbf35e6100b47f79"
-    },
-    {
-      "date": 1727162096142,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-24-09-13-error.log",
-      "hash": "14b974b01b9c0fdfb02b616a594260ac98e2fa9e003d10d5b2208458b375588c"
-    },
-    {
-      "date": 1727174804050,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-24-09-16-error.log",
-      "hash": "d65e4d11fb4dd3290c369fb1b1a12827bfa53cf03b966e95ccca94a23f1a5d86"
-    },
-    {
-      "date": 1727255691590,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-25-09-15-error.log",
-      "hash": "7fc7a3870848d75e1cd9f4a49ad39902c814964dec05f7f61c8b79d8d5e1fdb1"
-    },
-    {
-      "date": 1727274236484,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-25-09-20-error.log",
-      "hash": "7e6bb7108081f3b310510c5a7b2c3574c748d92fa38710615d15fb5cbf6d925e"
-    },
-    {
-      "date": 1727276854465,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-25-09-21-error.log",
-      "hash": "931629e23d75b329fbce6bf54519580538a53dedf9dd3b191b6486aac525ff05"
-    },
-    {
-      "date": 1727336022870,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-13-error.log",
-      "hash": "193e8d57b8a03b7c96fb9ad5cdd486282927f7ae4b4e6717b10a4cfc8311446e"
-    },
-    {
-      "date": 1727348593952,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-17-error.log",
-      "hash": "585c8ce4d9f2717b32dea5b49e4c3d4363302e1f7e14250a9ca4d297c183eaa9"
-    },
-    {
-      "date": 1727361511309,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-20-error.log",
-      "hash": "62b52c19542913e486743c85a498f4a0c8bc58e35b94dff51724701b06f1d2bb"
-    },
-    {
-      "date": 1727363058550,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-21-error.log",
-      "hash": "2d593e12b1450390280076b21d6f30d320b8ec9ab2ced071509ed42a9c7c9160"
-    },
-    {
-      "date": 1727423736984,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-13-error.log",
-      "hash": "d23c1b48501eded1ac845c0fa03272594c0f809fa79ce6f76c10d33f5997c868"
-    },
-    {
-      "date": 1727427753649,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-15-error.log",
-      "hash": "4af56cbe77e21b9097cbca5e421edded9cf367b954cab9973b4d81d90c297f83"
-    },
-    {
-      "date": 1727442972161,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-19-error.log",
-      "hash": "613a5f84c42852812d1617405980df2a1ecab14beef8d38cf011d45e60d5c46b"
-    },
-    {
-      "date": 1727455086070,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-22-error.log",
-      "hash": "ba19461def087cf856f7bc4f4de4b4e03e04748ad6548ce4b608ee95811434ba"
-    },
-    {
-      "date": 1727456576777,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-23-error.log",
-      "hash": "700eafbad589bd7b7930577222d1efe90304666ca4b5c1303af5815cb61ad6fb"
-    },
-    {
-      "date": 1727460945542,
-      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-28-09-00-error.log",
-      "hash": "91a01ffd84f5e51182827389c50f6c85634b0742f599c1907a25552e76ff975a"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\.53a110235e04c7fc6cf68ac08854a22067229bee-audit.json",
+    "files": [
+        {
+            "date": 1727083044364,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-15-error.log",
+            "hash": "bf8a9c7482d77aa108911ed832ef31df08c1241f64e3fa3e4c91d0ddb84b58f9"
+        },
+        {
+            "date": 1727086868294,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-16-error.log",
+            "hash": "f0bce7db20b39d4386cfc38a15cf934727f63f6128998db5e375d52599f9464f"
+        },
+        {
+            "date": 1727097015508,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-19-error.log",
+            "hash": "9ffcb2564767128e8775b6b9d179d03ba61f9f2d788718b881183665a91f059f"
+        },
+        {
+            "date": 1727100946633,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-20-error.log",
+            "hash": "10ad5726d0bbdfdd1677bbf9bba837e32ac642f5e0df29d7f8750bb37e952295"
+        },
+        {
+            "date": 1727103603972,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-23-09-21-error.log",
+            "hash": "85b3e092fac501876407400d1dd3d7a60f241e0e422677e7dbf35e6100b47f79"
+        },
+        {
+            "date": 1727162096142,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-24-09-13-error.log",
+            "hash": "14b974b01b9c0fdfb02b616a594260ac98e2fa9e003d10d5b2208458b375588c"
+        },
+        {
+            "date": 1727174804050,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-24-09-16-error.log",
+            "hash": "d65e4d11fb4dd3290c369fb1b1a12827bfa53cf03b966e95ccca94a23f1a5d86"
+        },
+        {
+            "date": 1727255691590,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-25-09-15-error.log",
+            "hash": "7fc7a3870848d75e1cd9f4a49ad39902c814964dec05f7f61c8b79d8d5e1fdb1"
+        },
+        {
+            "date": 1727274236484,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-25-09-20-error.log",
+            "hash": "7e6bb7108081f3b310510c5a7b2c3574c748d92fa38710615d15fb5cbf6d925e"
+        },
+        {
+            "date": 1727276854465,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-25-09-21-error.log",
+            "hash": "931629e23d75b329fbce6bf54519580538a53dedf9dd3b191b6486aac525ff05"
+        },
+        {
+            "date": 1727336022870,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-13-error.log",
+            "hash": "193e8d57b8a03b7c96fb9ad5cdd486282927f7ae4b4e6717b10a4cfc8311446e"
+        },
+        {
+            "date": 1727348593952,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-17-error.log",
+            "hash": "585c8ce4d9f2717b32dea5b49e4c3d4363302e1f7e14250a9ca4d297c183eaa9"
+        },
+        {
+            "date": 1727361511309,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-20-error.log",
+            "hash": "62b52c19542913e486743c85a498f4a0c8bc58e35b94dff51724701b06f1d2bb"
+        },
+        {
+            "date": 1727363058550,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-26-09-21-error.log",
+            "hash": "2d593e12b1450390280076b21d6f30d320b8ec9ab2ced071509ed42a9c7c9160"
+        },
+        {
+            "date": 1727423736984,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-13-error.log",
+            "hash": "d23c1b48501eded1ac845c0fa03272594c0f809fa79ce6f76c10d33f5997c868"
+        },
+        {
+            "date": 1727427753649,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-15-error.log",
+            "hash": "4af56cbe77e21b9097cbca5e421edded9cf367b954cab9973b4d81d90c297f83"
+        },
+        {
+            "date": 1727442972161,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-19-error.log",
+            "hash": "613a5f84c42852812d1617405980df2a1ecab14beef8d38cf011d45e60d5c46b"
+        },
+        {
+            "date": 1727455086070,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-22-error.log",
+            "hash": "ba19461def087cf856f7bc4f4de4b4e03e04748ad6548ce4b608ee95811434ba"
+        },
+        {
+            "date": 1727456576777,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-27-09-23-error.log",
+            "hash": "700eafbad589bd7b7930577222d1efe90304666ca4b5c1303af5815cb61ad6fb"
+        },
+        {
+            "date": 1727460945542,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-28-09-00-error.log",
+            "hash": "91a01ffd84f5e51182827389c50f6c85634b0742f599c1907a25552e76ff975a"
+        },
+        {
+            "date": 1727511969931,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-28-09-14-error.log",
+            "hash": "6a98bc2f365e0a2ab3b9a1745b184f609f3686770df7cafbb04229ef6f2d95f1"
+        },
+        {
+            "date": 1727530500284,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-28-09-19-error.log",
+            "hash": "15b87cb3c70a32272228b5fe2bc33d4520a86a146f9e92a44f8169b4fa784427"
+        },
+        {
+            "date": 1727533116996,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-28-09-20-error.log",
+            "hash": "6dd99ceffab2240a2469a5df84fe22596d24a96baee8aa4e7bb826b0ea9c72e2"
+        }
+    ],
+    "hashType": "sha256"
 }
