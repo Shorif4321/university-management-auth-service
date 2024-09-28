@@ -1,0 +1,110 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\.619ac79f23e044aaa22993cc84f406b976440ff0-audit.json",
+    "files": [
+        {
+            "date": 1727083044356,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-23-09-15-success.log",
+            "hash": "92339c1711d4ad3614f79ce8abac22a8562c8646ec4b6574fdafac20ccc181d2"
+        },
+        {
+            "date": 1727086868289,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-23-09-16-success.log",
+            "hash": "023a243b6afcdf697fa4d63ef7d2b53b3d1817d18a55189cafeb31e92cc57edf"
+        },
+        {
+            "date": 1727097015479,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-23-09-19-success.log",
+            "hash": "75862e7982548892d03f645f3e08e1255f8d82632ae7484167180b077f2f0632"
+        },
+        {
+            "date": 1727100946626,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-23-09-20-success.log",
+            "hash": "12cc4dfcbb18b4154407c7cbd2d1e943d7fc0671c9cb2195a5ed1c8022a9a3bb"
+        },
+        {
+            "date": 1727103603964,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-23-09-21-success.log",
+            "hash": "00595d662a020be1597e6d20b75be383602b009c71b737f032bbc743f587d00f"
+        },
+        {
+            "date": 1727162096111,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-24-09-13-success.log",
+            "hash": "be7bf0fd1d087587ca6afef9f9ab7702409b00967adcabe5e853ef19d7019ad2"
+        },
+        {
+            "date": 1727174804016,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-24-09-16-success.log",
+            "hash": "47dd999a17d4e3a3e4944656f0fa9810c9f2bd879f24322b3db6f0ecd115de1b"
+        },
+        {
+            "date": 1727255691578,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-25-09-15-success.log",
+            "hash": "ab72afe1474650ec8c676abddc6d49b1081d34e81422cd979bf98c141a83e92c"
+        },
+        {
+            "date": 1727274236478,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-25-09-20-success.log",
+            "hash": "ca1dc5cacfdd30f0638db2f3e3d65021fb87153724f7c4b28789d5136e5fc98f"
+        },
+        {
+            "date": 1727276854461,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-25-09-21-success.log",
+            "hash": "375da8301862575c4e6b7261bc08e821f3fcb3bd89d385cb678bd5d344f9dc8f"
+        },
+        {
+            "date": 1727336022858,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-26-09-13-success.log",
+            "hash": "3b5a22ece5fb9e606c620c6c26e8cc1b4502c2c115b4c806eb332e2e2abd9517"
+        },
+        {
+            "date": 1727348593938,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-26-09-17-success.log",
+            "hash": "5ddc8d238410275a405aab68f78691e3fc3394a9860230bd24881d2a436e0c0a"
+        },
+        {
+            "date": 1727361511303,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-26-09-20-success.log",
+            "hash": "987c54859db147908547e151f1cc65eb91fd4c621cf950980c45efe925d76d27"
+        },
+        {
+            "date": 1727363058546,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-26-09-21-success.log",
+            "hash": "7ec65afb7282c751eb4521006518fbf8ad401ea400b8f9e05447bce19591ca90"
+        },
+        {
+            "date": 1727423736978,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-27-09-13-success.log",
+            "hash": "edca759c06d03e23b4b250d2c6bf90d73176c8ce481049845d628e231506cb37"
+        },
+        {
+            "date": 1727427753615,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-27-09-15-success.log",
+            "hash": "7a68e495f646ba828f13ae209c4ecd4eefeed16d060c7dc8f4349347bfada5f0"
+        },
+        {
+            "date": 1727442972150,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-27-09-19-success.log",
+            "hash": "196a4561ff67852445d97836db9496d696cc1d14b28966614d1ddecb698a470a"
+        },
+        {
+            "date": 1727455086062,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-27-09-22-success.log",
+            "hash": "42aa9c7202e190327a3da06db457d04d427ea088ac783175c877bc6974b2f745"
+        },
+        {
+            "date": 1727456576772,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-27-09-23-success.log",
+            "hash": "bbfe2562d7e731d7333c3b77f7b988d9f379c319aeb9f0769c6026afaf588af9"
+        },
+        {
+            "date": 1727460945536,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\14 Pagination, Feltering complete academic semester\\universtiy-management-auth-service\\logs\\winston\\success\\un-2024-28-09-00-success.log",
+            "hash": "6aeba22faa1d3e73a58b0a9b412c04834c80b8e4ca83d419f32303c8b01d30ab"
+        }
+    ],
+    "hashType": "sha256"
+}

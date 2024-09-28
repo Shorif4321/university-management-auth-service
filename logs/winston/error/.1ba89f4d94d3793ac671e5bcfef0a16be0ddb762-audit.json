@@ -1,40 +1,40 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\.1ba89f4d94d3793ac671e5bcfef0a16be0ddb762-audit.json",
+  "files": [
+    {
+      "date": 1726896830356,
+      "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-21-09-11-error.log",
+      "hash": "de941486872c96112b3d5fc4be253b3e4d8087a7e16949e12e72721431a17e24"
     },
-    "auditLog": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\.1ba89f4d94d3793ac671e5bcfef0a16be0ddb762-audit.json",
-    "files": [
-        {
-            "date": 1726896830356,
-            "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-21-09-11-error.log",
-            "hash": "de941486872c96112b3d5fc4be253b3e4d8087a7e16949e12e72721431a17e24"
-        },
-        {
-            "date": 1726984013275,
-            "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-11-error.log",
-            "hash": "2eaf2f85c164c974459257446de93a638c2769807d3da8a0faf922e245a28126"
-        },
-        {
-            "date": 1726984958780,
-            "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-12-error.log",
-            "hash": "c2505fa0106eb9a7509a3a60f481195dc958e13167200a4a39928284284e2193"
-        },
-        {
-            "date": 1726988483860,
-            "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-13-error.log",
-            "hash": "5f74c38bc69100a7b29d0c1537de7162d4544ad7dd3b42f1da250e270838190a"
-        },
-        {
-            "date": 1726992680310,
-            "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-14-error.log",
-            "hash": "b243555dd1d7ce0e37fa14c7b29e105b8c350e93f071889cb682eb5d092c469e"
-        },
-        {
-            "date": 1726995827062,
-            "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-15-error.log",
-            "hash": "120216bdd353aac158fe7d857cf57faf9c5e7142e2ef21e8d0a70373ce79bbbe"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1726984013275,
+      "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-11-error.log",
+      "hash": "2eaf2f85c164c974459257446de93a638c2769807d3da8a0faf922e245a28126"
+    },
+    {
+      "date": 1726984958780,
+      "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-12-error.log",
+      "hash": "c2505fa0106eb9a7509a3a60f481195dc958e13167200a4a39928284284e2193"
+    },
+    {
+      "date": 1726988483860,
+      "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-13-error.log",
+      "hash": "5f74c38bc69100a7b29d0c1537de7162d4544ad7dd3b42f1da250e270838190a"
+    },
+    {
+      "date": 1726992680310,
+      "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-14-error.log",
+      "hash": "b243555dd1d7ce0e37fa14c7b29e105b8c350e93f071889cb682eb5d092c469e"
+    },
+    {
+      "date": 1726995827062,
+      "name": "D:\\Project\\Next 2.0\\3 Be a NoSQL Backend Braniac\\13 Error handlling, Zod, Pagination and Academic semester\\universtiy-management-auth-service\\logs\\winston\\error\\un-2024-22-09-15-error.log",
+      "hash": "120216bdd353aac158fe7d857cf57faf9c5e7142e2ef21e8d0a70373ce79bbbe"
+    }
+  ],
+  "hashType": "sha256"
 }
