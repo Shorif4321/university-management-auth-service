@@ -1,4 +1,7 @@
-import { ErrorRequestHandler } from 'express';
+/* eslint-disable no-console */
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { ErrorRequestHandler, NextFunction } from 'express';
 import { IGenericErrorMessage } from '../interfaces/error';
 import config from '../config';
 import handleValidationError from '../errors/handleValidationError';
@@ -6,10 +9,16 @@ import ApiError from '../errors/ApiError';
 import { errorLogger } from '../shared/logger';
 import { ZodError } from 'zod';
 import handleZodError from '../errors/handleZodError';
+import handleCastError from '../errors/handleCastError';
 
-const globalErrorHandelar: ErrorRequestHandler = (error, req, res, next) => {
+const globalErrorHandelar: ErrorRequestHandler = (
+  error,
+  req,
+  res,
+  next: NextFunction,
+) => {
   //env development hole erros log kore dekhabe ar jodi production hoi tbe errorLogger er moodde error save kore rakhbe
-  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+
   config.env === 'development'
     ? console.log('🧨globalErrorHandler', error)
     : errorLogger.error('🧨globalErrorHandler', error);
@@ -29,6 +38,14 @@ const globalErrorHandelar: ErrorRequestHandler = (error, req, res, next) => {
   // zod error
   else if (error instanceof ZodError) {
     const simplifiedError = handleZodError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+  }
+  //cast error
+  else if (error?.name === 'CastError') {
+    // res.status(200).json({ error });
+    const simplifiedError = handleCastError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
@@ -67,7 +84,5 @@ const globalErrorHandelar: ErrorRequestHandler = (error, req, res, next) => {
     errorMessages,
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
-
-  next();
 };
 export default globalErrorHandelar;

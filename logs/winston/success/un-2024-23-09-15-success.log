@@ -1,0 +1,48 @@
+{
+  message: '🛢 Database is Connected Successfully',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:17:28.447Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:17:28.472Z'
+}
+{
+  message: '🛢 Database is Connected Successfully',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:51:39.525Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:51:39.544Z'
+}
+{
+  message: '🛢 Database is Connected Successfully',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:54:36.201Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:54:36.215Z'
+}
+{
+  message: '🛢 Database is Connected Successfully',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:54:48.360Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UN',
+  timestamp: '2024-09-23T09:54:48.367Z'
+}
