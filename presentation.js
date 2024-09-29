@@ -152,5 +152,4 @@
 // create route in route.delete('/',academicSemesterController.deleteSemester) + acacdemicSemester.controller.ts + acacdemicSemester.serive.ts
 // postman his delete by id
 
-
 // create a new academic faculty
