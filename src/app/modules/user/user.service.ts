@@ -33,7 +33,7 @@ const createStudent = async (
     student.academicSemester,
   );
 
-  // genarate  student id
+  // genarate  student id and
   let newUserAllData = null;
   const session = await mongoose.startSession();
   try {
