@@ -27,13 +27,13 @@ const createStudent = async (
     user.password = config.default_student_pass as string;
   }
 
-  //SET ROLE
+  //SET ROLEe
   user.role = 'student';
   const academicsemester = await AcademicSemester.findById(
     student.academicSemester,
   );
 
-  // genarate  student id
+  // genarate  student id and
   let newUserAllData = null;
   const session = await mongoose.startSession();
   try {

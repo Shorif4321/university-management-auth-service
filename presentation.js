@@ -2,18 +2,15 @@
 // creae enums folder in src,  user.ts + export enum ENUM_USER_ROLE{ SUPER_ADMIN='super_admin',ADMIN='admin',STUDENT='student',FACULTY='faculty'}
 // user.utils.ts file = genarateUserId = genarateStudentId
 
-
 // 15-2: Create generateStudentId() utility and test it
 // chage findLastUserId to findLastStudentId + let to const incrementalId
 // ager incremental id er sathe year ar last dui digit + code and ager id set kore incrementalId er moodei update korteci =  incrementalId = `${academicSemester.year.substring(2)}${academicSemester.code}${incrementalId}`   + console.log(incrementalId);
 // test kore dekhar jonne app.ts a const acdemicSemester = {code:'01',year:'2025'}
 // create function = const testId = async()=>{const testId = await generateStudentId(academicSemester) console.log(testId) } + call the function
 
-
 // 15-3: Create generatefacultyId() utility and get some bug to enjoy
 // create new  findLastFacultyId + generateFacultyId  test in app.ts + in user.service.ts file chage generateUserId to generateStudentId + send data +
 // user.controller.ts file {...user} + in postMan check by users/create-user post + {"role":"student"} + secondtime hit korele id string akare jog hbe ==== solve (ager puro id ke niye tar sathe 1 jog kortece = ager id theke last 5ta number ke retutin hisebe niye tar sathe 1 jog korte hbe)
-
 
 // 15-4: Fix the bugs and test student and faculty
 // user.utils.ts file =  return lastStudent?.id ? lastStudent.id.substring(4) : undefined;
@@ -25,7 +22,6 @@
 // postman hit again create-user route = id kintu student er ta create hbe ,, karon user.server.ts file a generateStudentId call kora , route a hit korle generateStudentId hit hocce === chage generateStudentId to generateFaculyId + hit postmang again
 // ekoi route a hit kore amara student / faculty / admin banacci - eta uchita na so amara difrent difrent route banabo
 
-
 // 15-5: Requirement Analysis of Student ,Multiple Database write operation = just see the video on programmin hero
 // 15-6 :Modify User Model , Schema _ Create Student Schema , Model
 // in user.mole.ts  add student:{type:Schema.Types.ObjectId,ref:'Student'} + same for faculty and admin
@@ -34,13 +30,11 @@
 // export type IStudent = InferSchemaType<typeof StudentSchema>;   InferSchema diye ak line a Schema ses
 // import IStudent type in user.interface.ts file
 
-
 // 15-7: Face a bug , create mongoose schema and zod schema
 // route a gele sutdent er propery zod validatinoa  niye jabe  --- see user.validation.ts file
 // zod validationer er enum and and student.model er gender and bloodGroup bar bar repeeted hocce so eitake student.const.ts file a niye export kroe dibo
 // user.validation.ts and user.modle a seta user korbo
 // student.interface + user validtion make carefully
-
 
 // 15-8: Refactor route , controller , service student interface , model, validation
 // from user.route chage create-user ==> create-student  + chage function createUser ==> createStudent
@@ -56,7 +50,6 @@
 // genarate  student id
 //   const id = await generateStudentId(academicsemester);
 
-
 // 15-9: Create User-Student using Transaction and Rollback
 //multiple oparetion ke ekta unit(Atomic Unit) hisebe chinta korata hocce transaction = jodi multiple oparetion er kon ta fail hoi tbe ager obosthai firiye nibe eita hocce roleback,
 // hoi multiple oparetion ekbare successfull hbe or kontai hbe na, ekta unit hoye succesfull hbe = transaction
@@ -71,11 +64,10 @@
 // catch e error hole settion ta abort and end kore dibo = await session.abortTransition() + await session.endTransition()
 //remove previous code +
 
-
 // 15-10: How to populate nested fileds and return data
 // etka bapar ace, userer moode student ekta reference filed and sei reference filder modde acadmicfaculty , academicSemeste, acadmic semester reference hisebe ace
 // academicSemester, academicDepartment, academicFaculty populate korbo
-// newUserAllData = newUser[0]; 
+// newUserAllData = newUser[0];
 /* if (newUserAllData) {
     newUserAllData = await User.find({ id: newUserAllData.id }).populate({
       path: 'student',
@@ -91,15 +83,7 @@
         },
       ],
     });
-  } */  //  + return newUserAllData 
+  } */ //  + return newUserAllData
 //
 
-
 // 15-11: Create student route , controller , constant
-
-
-
-
-
-
-
