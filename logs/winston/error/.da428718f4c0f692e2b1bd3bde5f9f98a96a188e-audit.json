@@ -1,55 +1,55 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\.da428718f4c0f692e2b1bd3bde5f9f98a96a188e-audit.json",
+  "files": [
+    {
+      "date": 1727840856804,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-09-error.log",
+      "hash": "8f29cda8182c81e67b8f6dd17529330aa115f7066212257d634acf0827e3bebd"
     },
-    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\.da428718f4c0f692e2b1bd3bde5f9f98a96a188e-audit.json",
-    "files": [
-        {
-            "date": 1727840856804,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-09-error.log",
-            "hash": "8f29cda8182c81e67b8f6dd17529330aa115f7066212257d634acf0827e3bebd"
-        },
-        {
-            "date": 1727841653022,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-10-error.log",
-            "hash": "1963f7f500f0f054c1deb06dd1cc829fe4783d6dc96e447f388a94c0848c5a93"
-        },
-        {
-            "date": 1727845749052,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-11-error.log",
-            "hash": "a3410eda27531b1fedc32f166a679a2f6e8ef525585ceada35c0263f191a68ed"
-        },
-        {
-            "date": 1727849765715,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-12-error.log",
-            "hash": "143dc24b8539bdd347797e2f7f12f9593f91814b78084fd526dff64833d902b5"
-        },
-        {
-            "date": 1727964665439,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-03-10-20-error.log",
-            "hash": "b0255c7e14586e0f36b23f517ee512137290d77635672c9bbcaa7fa8a902d5e5"
-        },
-        {
-            "date": 1727967612512,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-03-10-21-error.log",
-            "hash": "e31e8a8553a370d86531da3e3e487326c0e299801360c0b5d2287efcc712411d"
-        },
-        {
-            "date": 1727978071907,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-03-10-23-error.log",
-            "hash": "4bc6731eea1ceceeb1870d22e08d8ffafbb673acd1ce42a85df7385f4d98c78e"
-        },
-        {
-            "date": 1727978520862,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-04-10-00-error.log",
-            "hash": "e37f1672dd7f0ff5134503a79a1d74ca57715c409072a517aae2779fb3c1b8e9"
-        },
-        {
-            "date": 1727982222710,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-04-10-01-error.log",
-            "hash": "0e1753e60d9cb5cb158f44b7da41f9807a8aefbdb5bec9dece435602ffaac77e"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1727841653022,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-10-error.log",
+      "hash": "1963f7f500f0f054c1deb06dd1cc829fe4783d6dc96e447f388a94c0848c5a93"
+    },
+    {
+      "date": 1727845749052,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-11-error.log",
+      "hash": "a3410eda27531b1fedc32f166a679a2f6e8ef525585ceada35c0263f191a68ed"
+    },
+    {
+      "date": 1727849765715,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-02-10-12-error.log",
+      "hash": "143dc24b8539bdd347797e2f7f12f9593f91814b78084fd526dff64833d902b5"
+    },
+    {
+      "date": 1727964665439,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-03-10-20-error.log",
+      "hash": "b0255c7e14586e0f36b23f517ee512137290d77635672c9bbcaa7fa8a902d5e5"
+    },
+    {
+      "date": 1727967612512,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-03-10-21-error.log",
+      "hash": "e31e8a8553a370d86531da3e3e487326c0e299801360c0b5d2287efcc712411d"
+    },
+    {
+      "date": 1727978071907,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-03-10-23-error.log",
+      "hash": "4bc6731eea1ceceeb1870d22e08d8ffafbb673acd1ce42a85df7385f4d98c78e"
+    },
+    {
+      "date": 1727978520862,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-04-10-00-error.log",
+      "hash": "e37f1672dd7f0ff5134503a79a1d74ca57715c409072a517aae2779fb3c1b8e9"
+    },
+    {
+      "date": 1727982222710,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\15 Compleate Student Model, implement transaction and rollback, practice faculty Model\\logs\\winston\\error\\un-2024-04-10-01-error.log",
+      "hash": "0e1753e60d9cb5cb158f44b7da41f9807a8aefbdb5bec9dece435602ffaac77e"
+    }
+  ],
+  "hashType": "sha256"
 }
