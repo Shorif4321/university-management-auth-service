@@ -87,3 +87,37 @@
 //
 
 // 15-11: Create student route , controller , constant
+// create student.route.ts = for specific user (student, admin, faculty) +  copy user.route.ts file all code paset in studnet.route.ts file
+// router.get('/',StudentController.getAllStudnets) 
+// router.get('/:id',StudentController.getSingleStudnet)
+// router.delete('/:id',StudentController.deleteStudent) + export StudnetRouter = {}
+// in index.ts file make a route {path:'/students',route:StudentRoute}
+//make student.controller.ts = copy academicSemester.controller.ts file code + peste in student.controller.ts file + modify code = change all function name
+// filterable field an searable filed er jonne student.constant.ts file a ei duita option copy kore ante hbe from academicSemseter.constant.ts file + chage valiable name 
+// give value in studentSearchableFields + set value in studentFilterableField
+
+
+//15-12: Create getAllStudent , getSingleStudent , deleteStudent service
+// create  student.service.ts file + copy all code from academicSemester.ts file  + modify code 
+// IStudentFilters make in interface.ts and export + set Serach Filters value id, blooadGroup etc
+// remove aupdate condinon form updateStudent 
+// add whereCondtions on result and countDocumantion 
+// get korar somoi populate korte hbe , jano academicFaculty , academicDepartment, academicFaculty sob dekhabe == so .populate('academicSemeste') + another two for department and faculty
+// code comment for update 
+// use same populate in findById = i mean getSingleUser
+// .populate('academicSemester')
+// .populate('academicDepartment')
+// .populate('academicFaculty')
+// use same populate in findByIdAndDelete = i mean deleteStudent 
+
+
+// 15-13: Create update route , student validation and fix naming convention
+// write router.patch in student.route.ts file + create student.validation.ts file 
+// only copy all user.validation.ts file + paste in student.validation.ts file + remove password and student, + chage fucntion name + export name chage
+// update korar somoi je kon field update hoteo pare nao paro so sobguloke optional korte hbe == copy all updateStudentZodSchema  and go to chatGPT = past and "remove requre_error and all optional"  
+
+
+//15-14: Create update service and handle name object dynamically
+
+
+
